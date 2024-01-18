@@ -1,2 +1,3 @@
 # Data Visualisation
- COS30045-Assignment
+COS30045-Assignment
+Welcome to Auspiciousness
