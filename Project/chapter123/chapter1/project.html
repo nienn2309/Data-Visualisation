@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Immigration Categories by Province</title>
+    <link rel="stylesheet" href="src/css/project.css">
+</head>
+<body>
+    <div class="container">
+        <svg id="chart-svg" width="1000" height="800"></svg>
+    </div>
+    <div id="tooltip"></div> 
+    <div class="button-container">
+        <button id="btn-2020">2020</button>
+        <button id="btn-2021">2021</button>
+        <button id="btn-2022">2022</button>
+        <button id="btn-2023">2023</button>
+        <button id="btn-2024">2024</button>
+        <button id="btn-world-map" onclick="redirectToWorldMap()">Quebec</button>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    
+    <script src="src/js/project.js"></script>
+
+<script>
+    function redirectToWorldMap() {
+        window.location.href = 'index.html'; // Thay đổi 'index.html' thành URL của trang bạn muốn điều hướng đến
+    }
+</script>
+</body>
+</html>
