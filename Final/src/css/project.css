@@ -1,0 +1,132 @@
+.bar:hover {
+  fill: rgb(204, 0, 255);
+}
+
+.axis {
+  font-size: 14px;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+}
+#tooltip {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.tooltip-text {
+  font-size: 14px;
+  fill: #333;
+}
+
+.arc path {
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.arc text {
+  font-size: 12px;
+  fill: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.bar:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 2;
+  }
+}
+.container {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.button-container {
+  margin-top: 20px;
+}
+
+.year-buttons,
+.location-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.year-buttons .button,
+.location-buttons .button {
+  margin: 0 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.location-buttons{
+    margin-top: 20px;
+}
+
+.button {
+  align-items: center;
+  appearance: none;
+  background-color: #eef2ff;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #536dfe;
+  box-shadow: rgba(83, 109, 254, 0.2) 0 2px 4px,
+    rgba(83, 109, 254, 0.15) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #536dfe;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 46px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+.button:focus {
+  outline: none;
+  box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(83, 109, 254, 0.4) 0 2px 4px,
+    rgba(83, 109, 254, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+.button:hover {
+  box-shadow: rgba(83, 109, 254, 0.3) 0 4px 8px,
+    rgba(83, 109, 254, 0.2) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+svg {
+  position: relative;
+}

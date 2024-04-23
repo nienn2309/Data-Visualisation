@@ -1,0 +1,18 @@
+{
+  "Province": {
+    "Name": "Ontario",
+    "Flag": "src/image/Flag_of_Ontario.svg.png",
+    "Coatofarms": "src/image/Coat_of_arms_of_Ontario.svg.png",
+    "information": {
+      "Country": "Canada",
+      "Before confederation": "Canada West",
+      "Confederation": {
+        "Date": "July 1, 1867",
+        "With": ["New Brunswick", "Nova Scotia", "Quebec"]
+      },
+      "Capital": "Toronto",
+      "Largest city": "Toronto",
+      "Largest metro": "Greater Toronto Area"
+    }
+  }
+}

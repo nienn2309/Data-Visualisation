@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Immigration Categories by Province</title>
+    <link rel="stylesheet" href="src/css/project.css" />
+    <link rel="stylesheet" href="src/css/navbar.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="hompage.html">Home</a></li>
+        <li><a href="project.html">Immigration Categories</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <svg id="chart-svg" width="1000" height="800"></svg>
+    </div>
+    <div id="tooltip"></div>
+    <div class="button-container">
+      <div class="year-buttons">
+        <button class="button" id="btn-2020">2020</button>
+        <button class="button" id="btn-2021">2021</button>
+        <button class="button" id="btn-2022">2022</button>
+        <button class="button" id="btn-2023">2023</button>
+        <button class="button" id="btn-2024">2024</button>
+      </div>
+      <h2 class="center">
+        Distribution of immigrants from various countries relocating to each
+        province.
+      </h2>
+      <div class="location-buttons">
+        <button class="button" id="btn-world-map" onclick="redirectToQuebec()">
+          Quebec
+        </button>
+        <button class="button" id="btn-ontario" onclick="redirectToOntario()">
+          Ontario
+        </button>
+      </div>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="src/js/project.js"></script>
+    <script>
+      function redirectToQuebec() {
+        const quebecCoords = [-73.5491, 52.9399];
+        const linkdata = "src/data/countriestoQuebec.json";
+        const datA = "src/data/quebec_info.json";
+        localStorage.setItem("provinceCoords", JSON.stringify(quebecCoords));
+        localStorage.setItem("linkdata", JSON.stringify(linkdata));
+        localStorage.setItem("data", JSON.stringify(datA));
+        localStorage.setItem("name", "Quebec");
+        window.location.href = `index.html?data=src/data/countriestoQuebec.json`;
+      }
+
+      function redirectToOntario() {
+        const ontarioCoords = [-85.3832, 50.6532];
+        const linkdata = "src/data/countriestoOrantio.json";
+        const dat = "src/data/ontario.json";
+        localStorage.setItem("provinceCoords", JSON.stringify(ontarioCoords));
+        localStorage.setItem("linkdata", JSON.stringify(linkdata));
+        localStorage.setItem("data", JSON.stringify(dat));
+        localStorage.setItem("name", "Ontario");
+        window.location.href = `index.html?data=src/data/countriestoOntario.json`;
+      }
+    </script>
+  </body>
+</html>

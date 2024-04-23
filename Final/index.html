@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/css/index.css" />
+    <style>
+      body {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: bisque;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="center">
+      Immigrants to <span id="provincena"></span> in the last decade
+    </h1>
+    <div class="tooltip" id="tooltip"></div>
+    <div class="center">
+      <button id="btn-world-map" onclick="redirect()">World</button>
+    </div>
+    <div class="container">
+      <div class="svg-container"></div>
+      <div class="info-container" id="info-container">
+        <h1 id="name_of_province" class="center">Quebec</h1>
+        <hr />
+        <div class="province">
+          <div>
+            <img id="Flag" />
+            <h3 class="center">Flag</h3>
+          </div>
+          <div>
+            <img id="CoatOfArms" />
+            <h3 class="center">Coat of arms</h3>
+          </div>
+        </div>
+        <hr />
+        <div class="information">
+          <div class="inside-information">
+            <p class="emphasize">Country</p>
+            <p id="country"></p>
+          </div>
+          <div class="inside-information">
+            <p class="emphasize">Before confederation</p>
+            <p id="before_confederation"></p>
+          </div>
+          <div class="inside-information">
+            <p class="emphasize">Confederation</p>
+            <p id="confederation"></p>
+          </div>
+          <hr />
+          <div class="inside-information">
+            <p class="emphasize">Capital</p>
+            <p id="capital"></p>
+          </div>
+          <div class="inside-information">
+            <p class="emphasize">Largest city</p>
+            <p id="largest_city"></p>
+          </div>
+          <div class="inside-information">
+            <p class="emphasize">Largest metro</p>
+            <p id="largest_metro"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      const datA = localStorage.getItem("data");
+
+      let data;
+      if (datA) {
+        data = JSON.parse(datA);
+      } else {
+        console.error("No data found in localStorage");
+      }
+
+      fetch(data)
+        .then((response) => response.json())
+        .then((data) => {
+          document.getElementById("provincena").textContent = data.Province.Name;
+          document.getElementById("name_of_province").textContent =
+            data.Province.Name;
+          document.getElementById("country").textContent =
+            data.Province.information.Country;
+          document.getElementById("before_confederation").textContent =
+            data.Province.information["Before confederation"];
+          document.getElementById("confederation").innerHTML = `${
+            data.Province.information.Confederation.Date
+          }<br>(1st, with ${data.Province.information.Confederation.With.join(
+            ", "
+          )})`;
+          document.getElementById("capital").textContent =
+            data.Province.information.Capital;
+          document.getElementById("largest_city").textContent =
+            data.Province.information["Largest city"];
+          document.getElementById("largest_metro").textContent =
+            data.Province.information["Largest metro"];
+
+          document.getElementById("Flag").src = data.Province.Flag;
+          document.getElementById("CoatOfArms").src = data.Province.Coatofarms;
+        })
+        .catch((error) => {
+          console.error("Error loading data:", error);
+        });
+
+      function redirect() {
+        window.location.href = "project.html";
+      }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.js"></script>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>

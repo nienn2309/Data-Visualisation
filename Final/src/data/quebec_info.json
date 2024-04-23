@@ -1,0 +1,18 @@
+{
+  "Province": {
+    "Name": "Quebec",
+    "Flag": "src/image/Flag_of_Quebec.svg.png",
+    "Coatofarms": "src/image/Coat_of_arms_of_Quebec.svg.png",
+    "information": {
+      "Country": "Canada",
+      "Before confederation": "Canada East",
+      "Confederation": {
+        "Date": "July 1, 1867",
+        "With": ["New Brunswick", "Nova Scotia", "Ontario"]
+      },
+      "Capital": "Quebec City",
+      "Largest city": "Montreal",
+      "Largest metro": "Greater Montreal"
+    }
+  }
+}

@@ -1,0 +1,209 @@
+[
+  {
+      "Country": "India",
+      "Economic_Immigrants": 118095,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [78.9629, 20.5937],
+      "Total": 118095
+  },
+  {
+      "Country": "China",
+      "Economic_Immigrants": 31815,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [104.1954, 35.8617],
+      "Total": 31815
+  },
+  {
+      "Country": "Afghanistan",
+      "Economic_Immigrants": 23735,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [66.2385, 33.9391],
+      "Total": 23735
+  },
+  {
+      "Country": "Nigeria",
+      "Economic_Immigrants": 22085,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [8.6753, 9.0820],
+      "Total": 22085
+  },
+  {
+      "Country": "Philippines",
+      "Economic_Immigrants": 22070,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [121.7740, 12.8797],
+      "Total": 22070
+  },
+  {
+      "Country": "France",
+      "Economic_Immigrants": 14145,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [2.2137, 46.2276],
+      "Total": 14145
+  },
+  {
+      "Country": "Pakistan",
+      "Economic_Immigrants": 11585,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [69.3451, 30.3753],
+      "Total": 11585
+  },
+  {
+      "Country": "Iran",
+      "Economic_Immigrants": 11105,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [53.6880, 32.4279],
+      "Total": 11105
+  },
+  {
+      "Country": "United States of America",
+      "Economic_Immigrants": 10400,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [-95.7129, 37.0902],
+      "Total": 10400
+  },
+  {
+      "Country": "Syria",
+      "Economic_Immigrants": 8500,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [38.9968, 34.8021],
+      "Total": 8500
+  },
+  {
+      "Country": "Algeria",
+      "Economic_Immigrants": 4000,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [1.6596, 28.0339],
+      "Total": 4000
+  },
+  {
+      "Country": "Haiti",
+      "Economic_Immigrants": 3500,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [-72.2852, 18.9712],
+      "Total": 3500
+  },
+  {
+      "Country": "Morocco",
+      "Economic_Immigrants": 3000,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [-7.0926, 31.7917],
+      "Total": 3000
+  },
+  {
+      "Country": "Cameroon",
+      "Economic_Immigrants": 2500,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [12.3547, 7.3697],
+      "Total": 2500
+  },
+  {
+      "Country": "Tunisia",
+      "Economic_Immigrants": 2000,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [9.5375, 33.8869],
+      "Total": 2000
+  },
+  {
+      "Country": "Ivory Coast",
+      "Economic_Immigrants": 1500,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [-5.5471, 7.5400],
+      "Total": 1500
+  },
+  {
+      "Country": "Colombia",
+      "Economic_Immigrants": 1000,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [-74.2973, 4.5709],
+      "Total": 1000
+  },
+  {
+      "Country": "Republic of the Congo",
+      "Economic_Immigrants": 750,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [15.8277, -0.2281],
+      "Total": 750
+  },
+  {
+      "Country": "Mexico",
+      "Economic_Immigrants": 500,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [-102.5528, 23.6345],
+      "Total": 500
+  },
+  {
+      "Country": "Lebanon",
+      "Economic_Immigrants": 300,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [35.8623, 33.8547],
+      "Total": 300
+  },
+  {
+      "Country": "Egypt",
+      "Economic_Immigrants": 200,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [30.8025, 26.8206],
+      "Total": 200
+  },
+  {
+      "Country": "Brazil",
+      "Economic_Immigrants": 100,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [-51.9253, -14.2350],
+      "Total": 100
+  },
+  {
+      "Country": "Senegal",
+      "Economic_Immigrants": 50,
+      "Family_Reunification": 0,
+      "Refugees_or_Similar": 0,
+      "Other_Immigrants": 0,
+      "Coordinates": [-14.4524, 14.4974],
+      "Total": 50
+  }
+]
